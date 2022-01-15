@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8720e4144d.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/action.php" name="myform" onsubmit="return validateform()" method="post" >
+        <div class="container" >
+            <h1>sign up  </h1>
+            <div class="box" id="name">
+                <i class="fas fa-camera-retro"></i>
+                <input type="text" name="name" placeholder="enter your name" required > <b>  <span class="formerror"></span></b>
+            </div>
+
+            <div class="box" id="email">
+                <i class="fas fa-envelope-square"></i>
+                <input type="email"  id="email" placeholder="enter your email"required >
+            </div>
+            <div class="box" id="password">
+                <i class="fa fa-key"></i>
+                <input type="password" name="password" placeholder=" enter your password" required> <b>  <span class="formerror"></span></b>
+            </div>
+            <div class="box" id="cnfpassword">
+                <i class="fa fa-key"></i>
+                <input type="password" name="cnfpassword"  placeholder=" confirm your password"required >  <b>  <span class="formerror"></span></b>
+            </div>
+            <button class="btn">Sign up</button>
+            <div><a href="index.html">login</a>if already had account</div>
+        </div>
+
+    </form>
+
+</body>
+<script>
+    function clearerror(){
+        error=document.getElementsByClassName('formerror')
+        for(let item of error){
+            item.innerHTML="";
+        }
+    }
+    function seterror(id,error){
+        element=document.getElementById(id);
+        element.getElementsByClassName('formerror')[0].innerHTML=error;
+
+    }
+    function validateform(){
+        var returnval =true
+        clearerror();
+        var name=document.forms['myform']['name'].value;
+        if(name.length<3){
+            seterror("name","length of name is too short");
+            returnval= false;
+
+        }
+        var password=document.forms['myform']['password'].value;
+        if(password.length<10){
+            seterror("password","atleast eleven character required");
+            returnval= false;
+
+        }
+        var cnfpass=document.forms['myform']['cnfpassword'].value
+        if(cnfpass!=password){
+            seterror("cnfpassword" ,'both password are diffrent')
+        returnval=false
+
+        }
+        
+
+        
+        return returnval;
+    
+    }
+</script>
+</html>

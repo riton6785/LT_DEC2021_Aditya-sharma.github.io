@@ -1,0 +1,113 @@
+/* Color Select 
+    selection background
+      F6F6F6 F4F9F9
+      
+ */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+body {
+    background-color: #F9F9F9;
+}
+
+/*:Heading */
+h1 {
+    margin: 10px auto 20px auto;
+    position: relative;
+
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+/*SECTION MARGIN*/
+#first,
+#second,
+#third {
+    box-sizing: border-box;
+    justify-content: center;
+
+    align-items: center;
+
+    background: #F9F9F9;
+
+    margin: 20px 30px 20px 30px;
+}
+
+
+
+.container .box {
+
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    margin: 20px;
+    padding: 20px 20px 30px 20px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 0;
+}
+
+.container .box img {
+    height: 40%;
+    width: 80%;
+}
+
+.box {
+    
+}
+
+.box h2 {
+
+    margin: 10px 8px 10px 8px;
+
+    padding: 0px 10px 10px 10px;
+
+    text-align: center;
+
+    color: black;
+}
+
+.box img {
+
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto 10px;
+    padding: 10px auto 10px;
+    border-radius: 30px;
+
+}
+
+.context {
+    width: 100%;
+    height: 100px;
+    overflow: auto;
+
+}
+
+.context p {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-sizing: inherit;
+    padding: 20px;
+}
+
+
+

@@ -1,0 +1,116 @@
+/* Color Select 
+    selection background
+      F6F6F6 F4F9F9
+      
+ */
+
+ * {
+
+    margin: 0;
+
+    padding: 0;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+body {
+    background-color: #F9F9F9;
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 10px 0 20px 0;
+    text-transform: capitalize; 
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 10px 0 20px 0; 
+}
+
+.container {
+    margin: 20px;
+    padding: 30px 30px 20px 30px;
+    background: #fff;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container .box {
+    margin: 50px 30px 50px 30px;
+    background: #F9F9F9;
+    border: 0;
+    padding: 20px;
+}
+
+.container .box h2 {
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 10px 0 20px 0; 
+}
+
+
+
+.container .box .rect-image img {
+    
+    border-radius: 10%;
+}
+
+.container .box p {
+    text-align: center;
+    margin: 10px;
+}
+
+.content-sponsor .sponsor,
+.placement-support .tieup {
+    margin: 10px;
+    padding: 10px;
+    width: 100;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content-sponsor .sponsor img,
+.placement-support .tieup img {
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

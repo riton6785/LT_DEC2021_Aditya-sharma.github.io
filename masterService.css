@@ -1,0 +1,150 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+body {
+    background-color: #F9F9F9;
+}
+
+/*:Heading */
+h1 {
+    margin: 20px auto 0 auto;
+    position: relative;
+
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+section {
+
+    background-color: white;
+    margin: 30px 30px 40px 30px;
+    padding: 20px 20px 30px 20px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 0;
+}
+
+
+
+h2 {
+
+    margin: 10px 8px 10px 8px;
+
+    padding: 0px 10px 10px 10px;
+
+    text-align: center;
+    
+}
+
+
+.container {
+    padding: 20px 30px 20px 30px;
+    background: #fff;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container .box {
+    margin: 20px 30px 20px 30px;
+    background: #F9F9F9;
+    border: 0;
+    padding: 20px;
+}
+
+.container .box h3 {
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 10px 0 20px 0;
+    
+}
+
+.container .box img {
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    margin: 10px auto 10px auto;
+    border-radius: 100%;
+    
+}
+
+.container .box p{
+    text-align: center;
+    margin: 10px;
+}
+
+#section3 h2{
+    
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#section3 .container4 {
+    
+}
+
+.container4 .box:nth-child(1) {
+    background-color: #FF0000;
+    color: #fff;
+}
+
+.container4 .box:nth-child(2) {
+    background-color: #D2FAFB;
+    color: #111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

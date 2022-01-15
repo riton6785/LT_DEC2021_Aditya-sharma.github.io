@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8720e4144d.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="action.php" name="myform" onsubmit="return validateform()" method="post" >
+        <div class="container">
+            <h1>sign in </h1>
+
+            <div class="box">
+                <i class="fas fa-envelope-square"></i>
+                <input type="email" name="email" id="email" placeholder="enter your email">
+            </div>
+            <div class="box" id="password">
+                <i class="fa fa-key"></i>
+                <input type="password" name="password"  placeholder=" enter your password" > <b>  <span class="formerror"></span></b>
+            </div>
+            <button class="btn">Log In</button>
+            <div><a href="signup.html">create account</a></div>
+           
+        </div>
+    </form>
+
+</body>
+<script>
+        function clearerror(){
+        error=document.getElementsByClassName('formerror');
+        for(let item of error){
+            item.innerHTML="";
+        }
+    }   
+
+    function seterror(id,error){
+        element=document.getElementById(id);
+        element.getElementsByClassName('formerror')[0].innerHTML=error;
+
+    }
+    function validateform(){
+        clearerror()
+        var returnval =true
+        var password=document.forms['myform']['password'].value;
+        if(password.length<10){
+            seterror("password","atleast eleven character required");
+            returnval= false;
+
+        }
+        return returnval;
+    
+    }
+</script>
+
+</html>

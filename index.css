@@ -1,0 +1,104 @@
+/* *{
+    background-color: #F9F9F9;
+} */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+.heading{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.heading h1{
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+}
+
+/* section 2 */
+.recent-course{
+    display: flex;
+    background:   #faf6f6;;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+/* section 3 */
+.content-sponsor{
+    display: flex;
+    background: white;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+/* section 4 */
+.placement-support{
+    display: flex;
+    background: #fff;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+/* section 5 */
+footer{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+}
+.quick-links{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.icon img{
+    height: 50px;
+    margin: 20px;
+}
+
+.center{
+    text-align: center;
+    
+}
+/* utility classes */
+
+.box{
+    border: 2px solid rgb(168, 170, 168);
+    border-radius: 20px;
+    width: 350px;
+    margin: 10px;
+    padding: 30px;
+    background: #F9F9F9;
+
+}
+.box p{
+    font-family: 'Poppins', sans-serif;
+}
+.sponsor{
+    width: 150px;
+    margin: 10px;
+    padding: 30px;
+    background: white;
+}
+
+.sponsor img{
+    height: 55px;
+    display: block;  /*  margin auto is done only when the display block is there */
+    margin: 15px;
+    background: #F9F9F9;
+}
+/* .tieup{ */
+    /* width: 170px; */
+    /* margin: 10px; */
+    /* padding: 30px; */
+
+/* } */
+.tieup img{
+    height: 42px;
+    display: block;  /*  margin auto is done only when the display block is there */
+    margin: 15px;
+    margin-top: 10px;
+}
+
+
+.rect-image img{
+    height: 100px;
+    display: block;  /*  margin auto is done only when the display block is there */
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /* padding-top: 15px; */
+
+}

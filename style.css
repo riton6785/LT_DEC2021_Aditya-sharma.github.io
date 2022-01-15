@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    background: url(./img/bg.jpg) no-repeat center center fixed ;
+    background-size: cover;
+    
+
+}.container {
+    margin: 0;
+    /* background: yellow; */
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+    
+
+ /* .container{
+    border: 15px solid black;
+    position: absolute;
+    
+    top: 25%;
+    left: 40%;
+    color: white;
+}  */
+.container h1{
+    font-size: 45px;
+    border-bottom: 2px solid springgreen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
+    display: inline-block;
+}
+.box{
+    width: 100%;
+    /* margin: 22px 0px; */
+    /* border: 3px solid red; */
+    border-bottom: 2px solid springgreen;
+    
+
+}
+.formerror{
+    color: white;
+}
+.box input{
+    width: 50%;
+    /* margin: 12px 0px; */
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    
+    padding: 5px 10px;
+    /* text-align: center; */
+    outline: none;
+    background: none;
+    border: none;
+    color: white;
+    
+
+}
+.btn{
+    border-radius: 10px;
+    margin: 12px 0;
+    border: 2px solid purple;
+    padding: 10px 24px;
+    font-size: 20px;
+    background: none;
+    font-weight: bold;
+    color: white;
+}
+.btn:hover{
+    background: yellowgreen;
+    transition: 0.5s ease-in-out;
+    opacity: 0.6;
+}
+.box i{
+    /* width: 25px; */
+    text-align: center;
+    
+    color: aliceblue;
+
+}
+ a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+    border-bottom: 2px solid springgreen;
+    display: inline-block;
+    font-weight: bold;
+}

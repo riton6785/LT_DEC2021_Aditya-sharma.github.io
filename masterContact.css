@@ -1,0 +1,22 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+body {
+    background-color: #F9F9F9;
+}
+
+#icon .contacts .box {
+    border: 2px solid #111;
+    z-index: 5px;
+    box-shadow: 3px 5px 3px 5px #11111188;
+}
